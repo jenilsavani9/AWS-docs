@@ -16,13 +16,13 @@ three major parts in distributed messaging queues
 - Queue
 - message in the queue
 
-![ArchOverview.png](AWS%20SQS%2061ed5062727647e2b523c8f85166abcd/ArchOverview.png)
+![ArchOverview.png](https://raw.githubusercontent.com/jenilsavani9/AWS-docs/main/img/SQS/ArchOverview.png)
 
 in our system there are many producers, consumers and queue which holds the message.
 
 ### Message Lifecycle
 
-![sqs-message-lifecycle-diagram.png](AWS%20SQS%2061ed5062727647e2b523c8f85166abcd/sqs-message-lifecycle-diagram.png)
+![sqs-message-lifecycle-diagram.png](https://github.com/jenilsavani9/AWS-docs/blob/b563074a8bcaf988ec0c59869dc985b4e707d5c2/img/SQS/sqs-message-lifecycle-diagram.png)
 
 `1` A producer (component 1) sends message A to a queue.
 
@@ -34,7 +34,7 @@ in our system there are many producers, consumers and queue which holds the mess
 
 Amazon SQS supports two types of queues – **`standard`** queues and **`FIFO`** queues.
 
-![Screenshot 2023-07-17 122732.png](AWS%20SQS%2061ed5062727647e2b523c8f85166abcd/Screenshot_2023-07-17_122732.png)
+![Screenshot 2023-07-17 122732.png](https://github.com/jenilsavani9/AWS-docs/blob/b563074a8bcaf988ec0c59869dc985b4e707d5c2/img/SQS/Screenshot_2023-07-17_122732.png)
 
 ## **Send Messages Between Distributed Applications with Amazon Simple Queue Service (SQS)**
 
@@ -46,11 +46,11 @@ Login to the amazon SQS console. click on get started now.
 
 In amazon SQS console write queue name and select queue type to standard queue. after that click on Quick create queue.
 
-![tmt_send-receive-async-messages_2c.64fe49350b38fa4e8fd12406a5d90f85cbaa1714.png](AWS%20SQS%2061ed5062727647e2b523c8f85166abcd/tmt_send-receive-async-messages_2c.64fe49350b38fa4e8fd12406a5d90f85cbaa1714.png)
+![tmt_send-receive-async-messages_2c.64fe49350b38fa4e8fd12406a5d90f85cbaa1714.png](https://github.com/jenilsavani9/AWS-docs/blob/b563074a8bcaf988ec0c59869dc985b4e707d5c2/img/SQS/tmt_send-receive-async-messages_2c.64fe49350b38fa4e8fd12406a5d90f85cbaa1714.png)
 
 new queue is created and selected in the queue list.
 
-![tmt_send-receive-async-messages_2d.3de4b5035ad88e4b5284e86628bb7a4727626eb6.png](AWS%20SQS%2061ed5062727647e2b523c8f85166abcd/tmt_send-receive-async-messages_2d.3de4b5035ad88e4b5284e86628bb7a4727626eb6.png)
+![tmt_send-receive-async-messages_2d.3de4b5035ad88e4b5284e86628bb7a4727626eb6.png](https://github.com/jenilsavani9/AWS-docs/blob/b563074a8bcaf988ec0c59869dc985b4e707d5c2/img/SQS/tmt_send-receive-async-messages_2d.3de4b5035ad88e4b5284e86628bb7a4727626eb6.png)
 
 ## Send Message to the queue
 
@@ -58,7 +58,7 @@ for sending the message in the queue select queue actions and select send a mess
 
 on the message body enter the order details. click on send message.
 
-![tmt_send-receive-async-messages_3b.7ff48cee9d639646b39c41f0fe6bb7616fde47c7.png](AWS%20SQS%2061ed5062727647e2b523c8f85166abcd/tmt_send-receive-async-messages_3b.7ff48cee9d639646b39c41f0fe6bb7616fde47c7.png)
+![tmt_send-receive-async-messages_3b.7ff48cee9d639646b39c41f0fe6bb7616fde47c7.png](https://github.com/jenilsavani9/AWS-docs/blob/b563074a8bcaf988ec0c59869dc985b4e707d5c2/img/SQS/tmt_send-receive-async-messages_3b.7ff48cee9d639646b39c41f0fe6bb7616fde47c7.png)
 
 ## Creating an Amazon SQS queue (AWS CloudFormation)
 
